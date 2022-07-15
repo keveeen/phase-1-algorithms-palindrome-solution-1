@@ -1,9 +1,41 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  // Write your algorithm here:
+  // 1.write a function called isPalindrome which takes one string as an argument
+  // and evaluates if this string is a palindrome.
+  // 2. return the boolean value.
+
+function reverseIt(word){
+
+    return word.split('').reverse().join('')
+
+  }
+    if(reverseIt(word) == word){
+
+          return true;
+        }
+
+    else{
+          return false;
+  }
+
+
 }
 
+
+// isPalindrome('racecar')
 /* 
   Add your pseudocode here
+
+  receive string
+
+  split characters
+  reverse characters
+  join characters
+
+  evaluate whether reversed word is equal to original word
+
+  return true or false
+
 */
 
 /*
